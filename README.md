@@ -1,5 +1,7 @@
 # cpp_cmake_template
 
+[![Test](https://github.com/sa-kei728/cpp_cmake_template/actions/workflows/cmaketest.yml/badge.svg?branch=main)](https://github.com/sa-kei728/cpp_cmake_template/actions/workflows/cmaketest.yml)  
+
 c++ template by using cmake
 
 ## Usage
