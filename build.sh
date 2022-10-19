@@ -17,9 +17,6 @@ function ErrorDetection {
     RET=$?
     echo "Failed to SystemServer: FailCommand: $1 FailStatus: $RET"
     cd $HOME
-    if [[ -d "./build" ]]; then
-        rm -rf ./build
-    fi
     exit 1
 }
 
@@ -79,7 +76,5 @@ pushd build
 cmake $CBUILDTYPE .. || ErrorDetection "cmake ${CBUILDTYPE} .."
 make -j${threadnum} || ErrorDetection "make -j${threadnum}"
 popd
-cp build/*.elf ./ || ErrorDetection "cp build/*.elf ./"
-rm -rf build
 
 exit 0
