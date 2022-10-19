@@ -62,7 +62,7 @@ CBUILDTYPE=""
 
 if [[ $t == "Debug" ]]; then
     CBUILDTYPE="-DCMAKE_BUILD_TYPE=Debug"
-elif [[ $t == "Debug" ]]; then
+elif [[ $t == "Release" ]]; then
     CBUILDTYPE="-DCMAKE_BUILD_TYPE=Release"
 elif [[ $t == "" ]]; then
     CBUILDTYPE=""
