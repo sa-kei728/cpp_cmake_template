@@ -18,6 +18,6 @@ jobs:
     - name: build
       run: ./build.sh
     - name: test
-      run:
+      run: |
         cd build
         make test
