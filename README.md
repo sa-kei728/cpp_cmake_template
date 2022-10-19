@@ -10,7 +10,7 @@ c++ template by using cmake
 $ ./build.sh -t Debug
 ```
 
-### Debug build
+### Release build
 
 ```console
 $ ./build.sh -t Release
