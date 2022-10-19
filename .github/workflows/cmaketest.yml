@@ -1,0 +1,23 @@
+name: C/C++ CMake CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-20.04
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: build
+      run: ./build.sh
+    - name: test
+      run: |
+        cd build
+        make test
