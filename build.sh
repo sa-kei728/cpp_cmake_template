@@ -15,7 +15,7 @@ function usage() {
 
 function ErrorDetection {
     RET=$?
-    echo "Failed to SystemServer: FailCommand: $1 FailStatus: $RET"
+    echo "Error: FailCommand: $1 FailStatus: $RET"
     cd $HOME
     exit 1
 }
