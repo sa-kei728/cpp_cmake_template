@@ -1,0 +1,6 @@
+{
+  "recommendations": [
+    "vscode.c-cpp-flylint",
+		"streetsidesoftware.code-spell-checker"
+  ]
+}

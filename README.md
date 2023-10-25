@@ -6,10 +6,10 @@ c++ template by using cmake
 
 ## PreRequirement
 
-* Please install clang-format
+* Please install clang-format and cppcheck
 
 ```console
-sudo apt install clang-format
+sudo apt install clang-format cppcheck
 ```
 
 ## Usage

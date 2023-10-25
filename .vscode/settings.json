@@ -1,0 +1,16 @@
+{
+    "[makefile]": {
+        "editor.insertSpaces": false
+    },
+
+    "[cpp]": {
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true
+    },
+
+    // use cppcheck only
+    "c-cpp-flylint.clang.enable": false,
+    "c-cpp-flylint.flawfinder.enable": false,
+    "c-cpp-flylint.flexelint.enable": false,
+    "c-cpp-flylint.lizard.enable": false
+}
