@@ -4,6 +4,4 @@
 
 void main_hello();
 
-inline void hello(){
-    std::cout << "hello!" << std::endl;
-}
+inline void hello() { std::cout << "hello!" << std::endl; }

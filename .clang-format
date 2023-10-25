@@ -1,0 +1,14 @@
+---
+BasedOnStyle: Google
+
+# accessor(public:, private:, etc) indent = 0
+AccessModifierOffset: -2
+
+# 80 -> 120
+ColumnLimit: 120
+
+# int* ptr;
+DerivePointerAlignment: false
+PointerAlignment: Left
+
+IndentWidth: 4
